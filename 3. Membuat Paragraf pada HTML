@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Paragraf HTML</title>
+</head>
+<body>
+
+    <h1>Belajar HTML</h1>
+
+    <p>HTML adalah bahasa markup yang digunakan untuk membuat halaman website.</p>
+
+    <p>HTML memiliki berbagai macam tag yang digunakan untuk menyusun isi halaman web, salah satunya adalah tag paragraf.</p>
+
+    <p>Dengan menggunakan HTML, kita dapat membuat teks, gambar, link, tabel, dan berbagai elemen lainnya.</p>
+
+</body>
+</html>
 
