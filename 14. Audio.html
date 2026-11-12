@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemutar Audio Lengkap</title>
+</head>
+<body>
 
+    <h3>Daftar Putar Audio HTML5</h3>
+
+    <!-- 1. Audio Standar dengan Multiple Source & Atribut Tambahan -->
+    <div>
+        <p><strong>1. Musik Pengantar (AutoPlay + Loop)</strong></p>
+        <audio controls autoplay loop muted>
+            <source src="audio-latar.mp3" type="audio/mpeg">
+            <source src="audio-latar.ogg" type="audio/ogg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    </div>
+
+    <hr>
+
+    <!-- 2. Audio Podcast / Ceramah -->
+    <div>
+        <p><strong>2. Podcast Episode 01</strong></p>
+        <audio controls preload="metadata">
+            <source src="podcast-ep1.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    </div>
+
+</body>
+</html>
