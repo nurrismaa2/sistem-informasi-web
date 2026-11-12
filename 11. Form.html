@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Membuat Form di HTML</title>
+</head>
+<body>
 
+    <form action="" method="POST">
+        <p>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" name="nama" placeholder="Masukkan nama...">
+        </p>
+
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="contoh@email.com">
+        </p>
+
+        <p>
+            <label>Password:</label><br>
+            <input type="password" name="password">
+        </p>
+
+        <p>
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="jk" value="L"> Laki-laki
+            <input type="radio" name="jk" value="P"> Perempuan
+        </p>
+
+        <p>
+            <label>Jurusan:</label><br>
+            <select name="jurusan">
+                <option value="SI">Sistem Informasi</option>
+                <option value="TI">Teknik Informatika</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Alamat:</label><br>
+            <textarea name="alamat" rows="3" cols="25"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Daftar">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+
+</body>
+</html>
