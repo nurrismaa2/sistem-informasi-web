@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Pribadi Saya</title>
+</head>
+<body>
 
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <header id="home" style="text-align: center;">
+        <img src="foto-profil.jpg" width="150" height="150" style="border-radius: 50%;" alt="Foto Profil">
+        <h1>Nama Lengkap Anda</h1>
+        <p>(Mahasiswa Sistem Informasi / Web Developer)</p>
+    </header>
+
+    <hr>
+
+    <article id="about" style="text-align: center;">
+        <h2>Overview</h2>
+        <p>Halo, saya adalah calon web developer yang sedang mempelajari dasar-dasar HTML5.</p>
+    </article>
+
+    <div style="max-width: 600px; margin: 3em auto;">
+        <table border="1" width="100%" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Pengalaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML (Beginner)</li>
+                            <li>CSS (Beginner)</li>
+                            <li>JavaScript (Beginner)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Membuat Struktur Web Dasar</li>
+                            <li>Mengolah Tabel & Form HTML</li>
+                            <li>Implementasi Multimedia HTML5</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <section id="contact" style="max-width: 400px; margin: auto;">
+        <h2>Hubungi Saya</h2>
+        <form>
+            <p>
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="alamat@email.com" style="width: 100%;">
+            </p>
+            <p>
+                <label>Pesan:</label><br>
+                <textarea name="pesan" rows="4" placeholder="Tulis pesan Anda..." style="width: 100%;"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Kirim">
+            </p>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2026 Nama Lengkap Anda.</p>
+    </footer>
+
+</body>
+</html>
